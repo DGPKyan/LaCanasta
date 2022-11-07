@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>La Canasta</title>
         <link rel="stylesheet" href="Contact.css">
+        
     </head>
     <body>
         <div class="contact">
@@ -44,21 +45,23 @@
         </div>
         <script src="https://smtpjs.com/v3/smtp.js"></script>
         <script>
-            function sendEmail(){
-                Email.send({
-                Host : "smtp.elasticemail.com",
-                Username : "kyanclaessens@gmail.com",
-                Password : "19F63EAB5DB9AB6C89F07F83064316802440",
-                To : 'kyanclaessens@gmail.com',
-                From : document.getElementById("email").value,
-                Subject : document.getElementById("onderwerp").value,
-                Body : "Naam: " + document.getElementById("name").value
-                    + "<br> Email: " + document.getElementById("email").value
-                    + "<br> Message: " + document.getElementById("message").value
-            }).then(
-            message => alert("Message sent succesfully")
-            );
-            }
+
+function sendEmail(){
+    Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "kyanclaessens@gmail.com",
+    Password : "19F63EAB5DB9AB6C89F07F83064316802440",
+    To : 'kyanclaessens@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : document.getElementById("onderwerp").value,
+    Body : "Naam: " + document.getElementById("name").value
+        + "<br> Email: " + document.getElementById("email").value
+        + "<br> Message: " + document.getElementById("message").value
+}).then(
+message => alert("Message sent succesfully")
+);
+}
+
         </script>
 </body>
 </html>

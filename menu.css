@@ -9,7 +9,7 @@ body
 #background 
 {
   width: 1400px;
-  height: 585px;
+  height: 900px;
   background: rgb(144, 144, 144);
   position:absolute;
   top: 60px;
@@ -59,7 +59,7 @@ body
 {
   
   position: relative;
-  top: 250px;
+  top: 230px;
   left: 5%;
   width: 0px;
   height: auto;
@@ -70,8 +70,8 @@ body
 {
   
   position: relative;
-  top: -210px;
-  left: 40%;
+  top: -350px;
+  left: 38%;
   width: 0px;
   height: auto;
   
@@ -81,10 +81,11 @@ body
 {
   
   position: relative;
-  top: -210px;
-  left: 30%;
+  top: -150px;
+  left: 38%;
   width: 0px;
   height: auto;
+
   
 }
 
@@ -92,8 +93,19 @@ body
 {
   
   position: relative;
-  top: -210px;
+  top: -540px;
   left: 30%;
+  width: 0px;
+  height: auto;
+  
+}
+
+#box_6
+{
+  
+  position: relative;
+  top: -750px;
+  left: 80%;
   width: 0px;
   height: auto;
   
@@ -106,8 +118,8 @@ body
 {
   
   position:absolute;
-  padding-top: 420px;
-  padding-left: 250px;
+  padding-top: 465px;
+  padding-left: 330px;
   font-family:cursive
 }
 
@@ -115,7 +127,7 @@ body
 { 
 position:absolute;
 padding-top: 100px;
-padding-left: 250px;
+padding-left: 330px;
 font-family:cursive
 
 }
@@ -124,7 +136,7 @@ font-family:cursive
 { 
 position:absolute;
 padding-top: 100px;
-padding-left: 800px;
+padding-left: 820px;
 font-family:cursive
 
 }
@@ -132,13 +144,27 @@ font-family:cursive
 #tekstd
 { 
 position:absolute;
-padding-top: 280px;
-padding-left: 260px;
+padding-top: 500px;
+padding-left: 830px;
+font-family:cursive
+
+}
+
+#tekste
+{ 
+position:absolute;
+padding-top: 300px;
+padding-left: 690px;
 font-family:cursive
 
 }
 
 
+#tekstf
+{ 
+position:absolute;
+padding-top: 320px;
+padding-left: 990px;
+font-family:cursive
 
-
-
+}
