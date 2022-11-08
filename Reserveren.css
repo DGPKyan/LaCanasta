@@ -28,10 +28,11 @@ form{
   border-radius: 10px;
 }
 
-form h3 {
+form h1 {
   background-color: #d9d9d9;
   font-weight: 800;
   margin-bottom: 20px;
+  align-self: center;
 }
 
 form p{
