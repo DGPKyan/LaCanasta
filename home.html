@@ -66,37 +66,19 @@
                 <form onsubmit="sendEmail(); reset(); return false;">
                     <h1>Reserveren</h1>
                     <p>Naam:</p>
-                    <input type="text" id="name" placeholder="Jan Janssen" required>
+                    <input type="text" id="name-reserveren" placeholder="Jan Janssen" required>
                     <p>Email:</p>
                     <!-- Werkt nu alleen met kyanclaessens@gmail.com of 515312@vistacollege.nl, weet niet waarom -->
-                    <input type="email" id="email" placeholder="janjanssen@gmail.com" required>
+                    <input type="email" id="email-reserveren" placeholder="janjanssen@gmail.com" required>
                     <p>Datum:</p>
-                    <input type= "date" name="date" id="date" required>
+                    <input type= "date" name="date" id="date-reserveren" required>
                     <p>Uw bericht:</p>
-                    <textarea id="message" rows="10" placeholder="Uw bericht"></textarea>
+                    <textarea id="message-reserveren" rows="10" placeholder="Uw bericht"></textarea>
                     <button type="submit">Verzenden</button>
                 </form>
             </div>
         </div>
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <script>
-            function sendEmail(){
-                Email.send({
-                Host : "smtp.elasticemail.com",
-                Username : "kyanclaessens@gmail.com",
-                Password : "19F63EAB5DB9AB6C89F07F83064316802440",
-                To : 'kyanclaessens@gmail.com',
-                From : document.getElementById("email").value,
-                Subject : 'Nieuwe reservering',
-                Body : "Naam: " + document.getElementById("name").value
-                    + "<br> Datum:" + document.getElementById("date").value
-                    + "<br> Email: " + document.getElementById("email").value
-                    + "<br> Message: " + document.getElementById("message").value
-            }).then(
-            message => alert("Message sent succesfully")
-            );
-            }
-        </script>
+        
     </div>
 
     <div id="parallax5">
@@ -106,17 +88,17 @@
     <div id="parallax6">
         <div class="contact">
             <div class="container-contact">
-                <form onsubmit="sendEmail(); reset(); return false;">
+                <form onsubmit= "sendEmail2(); reset(); return false;">
                     <h1>Contact</h1>
                     <p>Naam:</p>
-                    <input type="text" id="name" placeholder="Jan Janssen" required>
+                    <input type="text" id="name-contact" placeholder="Jan Janssen" required>
                     <p>Email:</p>
                     <!-- Werkt nu alleen met kyanclaessens@gmail.com of 515312@vistacollege.nl, weet niet waarom -->
-                    <input type="email" id="email" placeholder="janjanssen@gmail.com" required>
+                    <input type="email" id="email-contact" placeholder="janjanssen@gmail.com" required>
                     <p>Onderwerp:</p>
-                    <input type= "text" name="onderwerp" id="onderwerp" placeholder="Onderwerp" required>
+                    <input type= "text" name="onderwerp-contact" id="onderwerp" placeholder="Onderwerp" required>
                     <p>Uw bericht:</p>
-                    <textarea id="message" rows="10" placeholder="Uw bericht"></textarea>
+                    <textarea id="message-contact" rows="10" placeholder="Uw bericht"></textarea>
                     <button type="submit">Verzenden</button>
                 </form>
             </div>
@@ -129,15 +111,16 @@
                     <div class="column_rechts">
                         <p>Social media</p>
                         <div class="column_fb">
-                            <a href="https://www.facebook.com/tapasrestaurantlacanasta"><img src="https://cdn.discordapp.com/attachments/826459345344135243/1038014589591367740/facebook_bruin.png" alt="facebook"></a>
+                            <a href="https://www.facebook.com/tapasrestaurantlacanasta" target="_blank"><img src="https://cdn.discordapp.com/attachments/826459345344135243/1038014589591367740/facebook_bruin.png" alt="facebook"></a>
                         </div>
                         <div class="column_ig">
-                            <a href="https://www.instagram.com/lacanasta_maastricht/"><img src="https://cdn.discordapp.com/attachments/826459345344135243/1038017088628994058/instagram_bruin.png" alt="instagram"></a>
+                            <a href="https://www.instagram.com/lacanasta_maastricht/" target="_blank"><img src="https://cdn.discordapp.com/attachments/826459345344135243/1038017088628994058/instagram_bruin.png" alt="instagram"></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
         <script src="https://smtpjs.com/v3/smtp.js"></script>
         <script>
             function sendEmail(){
@@ -145,27 +128,34 @@
                 Host : "smtp.elasticemail.com",
                 Username : "kyanclaessens@gmail.com",
                 Password : "19F63EAB5DB9AB6C89F07F83064316802440",
-                To : 'kyanclaessens@gmail.com',
-                From : document.getElementById("email").value,
-                Subject : document.getElementById("onderwerp").value,
-                Body : "Naam: " + document.getElementById("name").value
-                    + "<br> Email: " + document.getElementById("email").value
-                    + "<br> Message: " + document.getElementById("message").value
+                To : 'vistalacanasta@gmail.com',
+                From : document.getElementById("email-reserveren").value,
+                Subject : "Nieuwe reservering",
+                Body : "Naam: " + document.getElementById("name-reserveren").value
+                    + "<br> Datum: " + document.getElementById("date-reserveren").value
+                    + "<br> Email: " + document.getElementById("email-reserveren").value
+                    + "<br> Message: " + document.getElementById("message-reserveren").value
             }).then(
             message => alert("Message sent succesfully")
             );
             }
         </script>
-    </div>
-
-
-
-
-
-
-
-
-
-
+        <script>
+            function sendEmail2(){
+                Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "kyanclaessens@gmail.com",
+                Password : "19F63EAB5DB9AB6C89F07F83064316802440",
+                To : 'vistalacanasta@gmail.com',
+                From : document.getElementById("email-contact").value,
+                Subject : document.getElementById("onderwerp-contact").value,
+                Body : "Naam: " + document.getElementById("name-contact").value
+                    + "<br> Email: " + document.getElementById("email-contact").value
+                    + "<br> Message: " + document.getElementById("message-contact").value
+            }).then(
+            message => alert("Message sent succesfully")
+            );
+            }
+        </script>
 </body>
 </html>
