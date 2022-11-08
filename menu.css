@@ -93,7 +93,7 @@ body
 {
   
   position: relative;
-  top: -540px;
+  top: -590px;
   left: 30%;
   width: 0px;
   height: auto;
@@ -167,4 +167,30 @@ padding-top: 320px;
 padding-left: 990px;
 font-family:cursive
 
+}
+/* de knop, eigenschappen*/
+.knop {
+  background-color: #fff9b3;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 20px 100px;
+  text-align: center;
+  text-decoration: none;
+  display:inline;
+  position:absolute;
+  font-size: 40px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*de knop, locatie*/
+#locatie{
+  padding-bottom: 0px;
+  padding-left: 100px;
+}
+
+#loctekst{
+  padding-left: 500px;
+  font-size: 50px;
+  
 }
