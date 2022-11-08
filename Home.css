@@ -1,0 +1,139 @@
+body{
+  background-color: #3d3006;
+   /* overflow: hidden;  */
+}
+html{
+scroll-behavior: smooth;
+}
+/* Nav Bar */
+ul {
+ /* position: sticky; */
+  position: fixed;
+  /* top: 0; */
+  width: 99%; 
+ top: 0px;
+  list-style-type: none;
+  margin: 0;
+  margin-top: 8px;
+  margin-right: 10px;
+  padding: 0;
+  /* padding-top: 60px; */
+  overflow: hidden;
+  background-color: #fefcf2;
+  height: 68px;
+  z-index: 10;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid #000;
+  font-family:'Fontfabric nexa rust sans 01',sans-serif  
+}
+
+ li {
+  position: relative;
+  float: left;
+  color: transparent;
+  z-index: 10;
+} 
+
+ li a {
+  position: relative;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  z-index: 10;  
+} 
+/* Nav Bar Tabs HOVER */
+li a:hover {
+  position: relative;
+  background-color: #fdefa6;
+  border: 1px solid #000;
+  z-index: 10;
+}
+/* Logo In NavBar */
+.logonav{
+position:fixed;
+right: 600px;
+top: -16px;
+float: right;
+z-index: 10;
+}
+
+#logonav2{
+background-color: transparent;
+}
+
+
+
+/* Reserveren BTN */
+.reserveren{
+  position:absolute; 
+  right: 150px;
+  top: 1px;
+  z-index: 10;
+  font-weight: 700;
+  text-decoration: none;
+  font-family:'Fontfabric nexa rust sans 01',sans-serif
+} 
+
+#reserverenlink{
+  background-color: #e1f7b9;
+  border: 1px solid #000;
+}
+
+/* Logo Homepage */
+
+#logo{
+position:absolute;
+top: 250px;
+right: 400px; 
+z-index: 10;
+}
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+ #parallax1{
+    max-height: 100%;
+   max-width: 100%;  
+} 
+
+#parallax2{
+  position:absolute;
+  top: 1000px;
+  height: 400px;
+}
+
+#parallax3{
+  position: relative;
+  top: 2000px;
+  height: 400px;
+}
+
+#parallax4{
+position: relative;
+top: 3000px;
+height: 400px;
+}
+
+#parallax5{
+position: relative;
+top: 4000px;
+height: 400px;
+}
+
+#parallax6{
+position: relative;
+top: 5000px;
+height: 400px;
+}
+
+
