@@ -6,7 +6,7 @@ body{
 #background 
 {
   width: 1400px;
-  height: 900px;
+  height: 1100px;
   background: rgb(144, 144, 144);
   position:absolute;
   top: 60px;
@@ -90,7 +90,7 @@ body{
 {
   
   position: relative;
-  top: -590px;
+  top: -555px;
   left: 30%;
   width: 0px;
   height: auto;
@@ -108,6 +108,28 @@ body{
   
 }
 
+#box_7
+{
+  
+  position: relative;
+  top: -600px;
+  left: 80%;
+  width: 0px;
+  height: auto;
+  
+}
+
+#box_8
+{
+  
+  position: relative;
+  top: -800px;
+  left: 23%;
+  width: 0px;
+  height: auto;
+  
+}
+
 
 /*Teksten naast de plaatjes op het grijze vak*/
 
@@ -117,7 +139,7 @@ body{
   position:absolute;
   padding-top: 465px;
   padding-left: 330px;
-  font-family:cursive
+  font-family:'poppins',sans-serif
 }
 
 #tekstb
@@ -125,7 +147,7 @@ body{
 position:absolute;
 padding-top: 100px;
 padding-left: 330px;
-font-family:cursive
+font-family:'poppins',sans-serif
 
 }
 
@@ -134,7 +156,7 @@ font-family:cursive
 position:absolute;
 padding-top: 100px;
 padding-left: 820px;
-font-family:cursive
+font-family:'poppins',sans-serif
 
 }
 
@@ -143,7 +165,7 @@ font-family:cursive
 position:absolute;
 padding-top: 500px;
 padding-left: 830px;
-font-family:cursive
+font-family:'poppins',sans-serif
 
 }
 
@@ -152,7 +174,7 @@ font-family:cursive
 position:absolute;
 padding-top: 300px;
 padding-left: 690px;
-font-family:cursive
+font-family:'poppins',sans-serif
 
 }
 
@@ -162,9 +184,25 @@ font-family:cursive
 position:absolute;
 padding-top: 320px;
 padding-left: 990px;
-font-family:cursive
-
+font-family:'poppins',sans-serif
 }
+
+#tekstg
+{ 
+position:absolute;
+padding-top: 600px;
+padding-left: 990px;
+font-family:'poppins',sans-serif
+}
+
+#teksth
+{ 
+position:absolute;
+padding-top: 700px;
+padding-left: 120px;
+font-family:'poppins',sans-serif
+}
+
 /* de knop, eigenschappen*/
 .knop {
   background-color: #fff9b3;
@@ -182,7 +220,7 @@ font-family:cursive
 }
 /*de knop, locatie*/
 #locatie{
-  padding-bottom: 0px;
+  padding-bottom: px;
   padding-left: 100px;
 }
 
