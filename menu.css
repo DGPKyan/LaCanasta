@@ -68,7 +68,7 @@ body{
   
   position: relative;
   top: -350px;
-  left: 38%;
+  left: 48%;
   width: 0px;
   height: auto;
   
@@ -79,7 +79,7 @@ body{
   
   position: relative;
   top: -150px;
-  left: 38%;
+  left: 48%;
   width: 0px;
   height: auto;
 
@@ -91,7 +91,7 @@ body{
   
   position: relative;
   top: -555px;
-  left: 23%;
+  left: 33%;
   width: 0px;
   height: auto;
   
@@ -124,7 +124,7 @@ body{
   
   position: relative;
   top: -830px;
-  left: 23%;
+  left: 33%;
   width: 0px;
   height: auto;
   
@@ -155,7 +155,7 @@ font-family:'poppins',sans-serif
 { 
 position:absolute;
 padding-top: 100px;
-padding-left: 820px;
+padding-left: 970px;
 font-family:'poppins',sans-serif
 
 }
@@ -164,7 +164,7 @@ font-family:'poppins',sans-serif
 { 
 position:absolute;
 padding-top: 500px;
-padding-left: 830px;
+padding-left: 980px;
 font-family:'poppins',sans-serif
 
 }
@@ -173,7 +173,7 @@ font-family:'poppins',sans-serif
 { 
 position:absolute;
 padding-top: 300px;
-padding-left: 605px;
+padding-left: 275px;
 font-family:'poppins',sans-serif
 
 }
@@ -199,7 +199,7 @@ font-family:'poppins',sans-serif
 { 
 position:absolute;
 padding-top: 700px;
-padding-left: 120px;
+padding-left: 285px;
 font-family:'poppins',sans-serif
 }
 
