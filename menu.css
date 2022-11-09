@@ -45,7 +45,7 @@ body{
 {
   
   position: relative;
-  top: 60px;
+  top: 65px;
   left: 5%;
   width: 0px;
   height: auto;
@@ -56,7 +56,7 @@ body{
 {
   
   position: relative;
-  top: 230px;
+  top: 260px;
   left: 5%;
   width: 0px;
   height: auto;
@@ -101,7 +101,7 @@ body{
 {
   
   position: relative;
-  top: -750px;
+  top: -815px;
   left: 80%;
   width: 0px;
   height: auto;
@@ -137,7 +137,7 @@ body{
 {
   
   position:absolute;
-  padding-top: 465px;
+  padding-top: 485px;
   padding-left: 330px;
   font-family:'poppins',sans-serif
 }
@@ -173,7 +173,7 @@ font-family:'poppins',sans-serif
 { 
 position:absolute;
 padding-top: 300px;
-padding-left: 275px;
+padding-left: 75px;
 font-family:'poppins',sans-serif
 
 }
@@ -182,8 +182,8 @@ font-family:'poppins',sans-serif
 #tekstf
 { 
 position:absolute;
-padding-top: 340px;
-padding-left: 990px;
+padding-top: 290px;
+padding-left: 890px;
 font-family:'poppins',sans-serif
 }
 
@@ -191,7 +191,7 @@ font-family:'poppins',sans-serif
 { 
 position:absolute;
 padding-top: 700px;
-padding-left: 990px;
+padding-left: 790px;
 font-family:'poppins',sans-serif
 }
 
@@ -199,7 +199,7 @@ font-family:'poppins',sans-serif
 { 
 position:absolute;
 padding-top: 700px;
-padding-left: 285px;
+padding-left: 205px;
 font-family:'poppins',sans-serif
 }
 
