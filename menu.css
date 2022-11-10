@@ -1,7 +1,4 @@
-body
-
-/*achtergrond kleur*/
-{
+body{
     background-color: #4b371c;
 }
 
@@ -48,7 +45,7 @@ body
 {
   
   position: relative;
-  top: 100px;
+  top: 65px;
   left: 5%;
   width: 0px;
   height: auto;
@@ -59,7 +56,7 @@ body
 {
   
   position: relative;
-  top: 230px;
+  top: 260px;
   left: 5%;
   width: 0px;
   height: auto;
@@ -71,7 +68,7 @@ body
   
   position: relative;
   top: -350px;
-  left: 38%;
+  left: 48%;
   width: 0px;
   height: auto;
   
@@ -82,7 +79,7 @@ body
   
   position: relative;
   top: -150px;
-  left: 38%;
+  left: 48%;
   width: 0px;
   height: auto;
 
@@ -94,7 +91,7 @@ body
   
   position: relative;
   top: -555px;
-  left: 30%;
+  left: 33%;
   width: 0px;
   height: auto;
   
@@ -104,7 +101,7 @@ body
 {
   
   position: relative;
-  top: -750px;
+  top: -815px;
   left: 80%;
   width: 0px;
   height: auto;
@@ -115,7 +112,7 @@ body
 {
   
   position: relative;
-  top: -600px;
+  top: -625px;
   left: 80%;
   width: 0px;
   height: auto;
@@ -126,8 +123,8 @@ body
 {
   
   position: relative;
-  top: -800px;
-  left: 23%;
+  top: -830px;
+  left: 33%;
   width: 0px;
   height: auto;
   
@@ -140,7 +137,7 @@ body
 {
   
   position:absolute;
-  padding-top: 465px;
+  padding-top: 485px;
   padding-left: 330px;
   font-family:'poppins',sans-serif
 }
@@ -158,7 +155,7 @@ font-family:'poppins',sans-serif
 { 
 position:absolute;
 padding-top: 100px;
-padding-left: 820px;
+padding-left: 970px;
 font-family:'poppins',sans-serif
 
 }
@@ -167,7 +164,7 @@ font-family:'poppins',sans-serif
 { 
 position:absolute;
 padding-top: 500px;
-padding-left: 830px;
+padding-left: 980px;
 font-family:'poppins',sans-serif
 
 }
@@ -176,7 +173,7 @@ font-family:'poppins',sans-serif
 { 
 position:absolute;
 padding-top: 300px;
-padding-left: 690px;
+padding-left: 75px;
 font-family:'poppins',sans-serif
 
 }
@@ -185,16 +182,16 @@ font-family:'poppins',sans-serif
 #tekstf
 { 
 position:absolute;
-padding-top: 320px;
-padding-left: 990px;
+padding-top: 290px;
+padding-left: 890px;
 font-family:'poppins',sans-serif
 }
 
 #tekstg
 { 
 position:absolute;
-padding-top: 600px;
-padding-left: 990px;
+padding-top: 700px;
+padding-left: 790px;
 font-family:'poppins',sans-serif
 }
 
@@ -202,7 +199,7 @@ font-family:'poppins',sans-serif
 { 
 position:absolute;
 padding-top: 700px;
-padding-left: 120px;
+padding-left: 205px;
 font-family:'poppins',sans-serif
 }
 

@@ -140,6 +140,56 @@ height: 400px;
 
 /* begin Over */
 
+#parallax2{
+  position:absolute;
+  top: 1000px;
+  height: 400px;
+}
+
+#fotopara{
+  position: relative;
+  top: 140px;
+  left: 100px;
+}
+#tekst1{
+  position: relative;
+  background-color: white;
+  top: 200px;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+  z-index: 9;
+}
+ #fotopara2{
+  position:relative;
+  top: -90px;
+  left: 600px;
+}
+#tekst2{
+  position: relative;
+  background-color: white;
+  top: -770px;
+  left: 600px;
+  width: 300px;
+  height: 300px;
+  z-index: 9;
+}
+  #fotopara3{
+  position: relative;
+  top: -1067px;
+  left: 1090px;
+}  
+  #tekst3{
+  position: relative;
+  background-color: white;
+  top: -995px;
+  left: 1090px;
+  width: 300px;
+  height: 300px;
+  z-index: 9;
+}   
+
+
 /* begin menu */
 
 /* begin reserveren */
