@@ -189,6 +189,7 @@ height: 400px;
   z-index: 9;
 }   
 
+/* einde over */
 
 /* begin menu */
 
@@ -264,9 +265,147 @@ height: 400px;
   border-radius: 20px;
 }
 
+/* einde menu */
+
 /* begin groepen */
 
+#box1{
+  height: 409px;
+  width: 528px;
+  left: 144px;
+  top: 183px;
+  position:absolute;
+  background-color: #d9d9d9;
+  z-index:-10;
+}
 
+#tekst4{
+  top: 220px;
+  left: 270px;
+  position:absolute;
+  text-align: center;
+  z-index: 9;
+}
+
+#box2{
+  width: 588px;
+  height: 295px;
+  left: 770px;
+  top: 183px;
+  position:absolute;
+  background-color: #d9d9d9;
+  z-index:-10;
+}
+
+#box3{
+  width: 528px;
+  height: 248px;
+  left: 144px;
+  top: 663px;
+  position:absolute;
+  background-color: #d9d9d9;
+}
+
+#box4{
+  width: 588px;
+  height: 374px;
+  left: 770px;
+  top: 537px;
+  position:absolute;
+  background-color: #d9d9d9;
+}
+
+#box5{
+  width: 508px;
+  height: 389px;
+  left: 154px;
+  top: 193px;
+  position:absolute;
+  background-color: #3d3106;
+  z-index: -9;
+}
+
+#box6{
+  width: 498px;
+  height: 379px;
+  left: 159px;
+  top: 198px;
+  position:absolute;
+  background-color: #d9d9d9;
+  z-index: -8;
+}
+
+#box7{
+  width: 508px;
+  height: 228px;
+  left: 154px;
+  top: 673px;
+  position:absolute;
+  background-color: #3d3106;
+}
+
+#box8{
+  width: 498px;
+  height: 218px;
+  left: 159px;
+  top: 678px;
+  position:absolute;
+  background-color: #d9d9d9;
+}
+
+#box9{
+  width: 568px;
+  height: 354px;
+  left: 780px;
+  top: 547px;
+  position:absolute;
+  background-color: #3d3106;
+}
+
+#box10{
+  width: 558px;
+  height: 344px;
+  left: 785px;
+  top: 552px;
+  position:absolute;
+  background-color: #d9d9d9;
+}
+
+#groepenimg{
+  width: 558px;
+  height: 265px;
+  left: 785px;
+  top: 198px;
+  position:absolute;
+  z-index:9;
+}
+
+#tekst5{
+  top: 680px;
+  left: 168px;
+  position:absolute;
+  text-align: center;
+  z-index:9;
+}
+#tekst6{
+  top: 600px;
+  left: 793px;
+  position:absolute;
+  text-align: center;
+  z-index:9;
+}
+
+#box11{
+  width: 568px;
+  height: 275px;
+  left: 780px;
+  top: 193px;
+  position:absolute;
+  background-color: #3d3106;
+  z-index:-9;
+}
+
+/* einde groepen */
 
 /* -- Script Kyan -- */
 
@@ -420,7 +559,7 @@ height: 400px;
 {
   width: 1400px;
   height: 1100px;
-  background: rgb(144, 144, 144);
+  background: #d9d9d9;
   position:absolute;
   top: 60px;
   left: 50px;
@@ -548,7 +687,6 @@ height: 400px;
 
 #parallax3 #tekst
 {
-  
   position:absolute;
   padding-top: 485px;
   padding-left: 330px;
@@ -586,7 +724,7 @@ font-family:'poppins',sans-serif
 { 
 position:absolute;
 padding-top: 300px;
-padding-left: 75px;
+padding-left: 66px;
 font-family:'poppins',sans-serif
 
 }
@@ -596,7 +734,7 @@ font-family:'poppins',sans-serif
 { 
 position:absolute;
 padding-top: 290px;
-padding-left: 890px;
+padding-left: 880px;
 font-family:'poppins',sans-serif
 }
 
@@ -604,7 +742,7 @@ font-family:'poppins',sans-serif
 { 
 position:absolute;
 padding-top: 700px;
-padding-left: 790px;
+padding-left: 760px;
 font-family:'poppins',sans-serif
 }
 
@@ -612,7 +750,7 @@ font-family:'poppins',sans-serif
 { 
 position:absolute;
 padding-top: 700px;
-padding-left: 205px;
+padding-left: 200px;
 font-family:'poppins',sans-serif
 }
 
